@@ -5,14 +5,14 @@
 
 ## Introduction
 
-Robot Framework is an open-source test automation framework that uses keyword-driven testing and allows easy-to-use tabular syntax to [create test cases](https://www.browserstack.com/guide/test-cases-for-automated-tests). It supports different testing approaches such as acceptance, integration, and [unit testing](https://www.browserstack.com/guide/unit-testing-a-detailed-guide). It uses a keyword-driven testing approach where testers can easily create test cases in tabular syntax. This guide will provide a comprehensive understanding of the Robot Framework, its basic concepts, syntax, and how it can be used for automated testing. You can follow this guide as a robot framework tutorial.
+Robot Framework is an open-source test automation framework that uses keyword-driven testing and allows easy-to-use tabular syntax to create test cases. It supports different testing approaches such as acceptance, integration, and unit testing. It uses a keyword-driven testing approach where testers can easily create test cases in tabular syntax. This guide will provide a comprehensive understanding of the Robot Framework, its basic concepts, syntax, and how it can be used for automated testing. You can follow this guide as a robot framework tutorial.
 
 
 ## What is Robot Framework?
 
-Robot Framework is a generic open source automation framework. It can be used for [test automation](https://robotframework.org/test-automation/) and [robotic process automation (RPA)](https://robotframework.org/rpa/).
+Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).
 
-Robot Framework is supported by [Robot Framework Foundation](https://robotframework.org/foundation/). Many industry-leading companies use the tool in their software development.
+Robot Framework is supported by Robot Framework Foundation. Many industry-leading companies use the tool in their software development.
 
 Robot Framework is open and extensible. Robot Framework can be integrated with virtually any other tool to create powerful and flexible automation solutions. Robot Framework is free to use without licensing costs.
 
@@ -21,20 +21,20 @@ Robot Framework has an easy syntax, utilizing human-readable keywords. Its capab
 
 ## Different Types of testing supported by Robot Framework
 
-Robot Framework is used when there is a need for test automation in a [software development process](https://www.browserstack.com/guide/learn-software-development-process). It is particularly useful in projects that require continuous integration and delivery, as it supports different types of testing and can be easily integrated with other tools such as [Jenkins](https://www.browserstack.com/guide/jenkins-for-test-automation) and Git.
+Robot Framework is used when there is a need for test automation in a software development process. It is particularly useful in projects that require continuous integration and delivery, as it supports different types of testing and can be easily integrated with other tools such as Jenkins and Git.
 
-Robot Test Framework is a versatile [test automation framework](https://www.browserstack.com/guide/best-test-automation-frameworks) that can be used in a variety of scenarios. Some common use cases for the Robot Framework include:
+Robot Test Framework is a versatile test automation framework that can be used in a variety of scenarios. Some common use cases for the Robot Framework include:
 
-- [**Acceptance Testing**](https://www.browserstack.com/guide/acceptance-testing): Robot Automation Framework is often used for acceptance testing, which involves testing whether a software system meets the specified requirements. This type of testing can be done at various stages of the software development lifecycle, from early prototypes to final releases.
--
-- [**Regression Testing**](https://www.browserstack.com/guide/regression-testing): Regression testing is used to ensure that software changes or updates do not introduce new bugs or issues. Robot Framework is a popular choice for regression testing because of its modular architecture and ability to easily reuse test cases.
--
-- [**Functional Testing**](https://www.browserstack.com/guide/functional-testing): Python Robot Framework can be used for functional testing, which involves testing the functionality of a software system. This can include testing individual functions or components, as well as testing the system as a whole.
--
-- [**Integration Testing**](https://www.browserstack.com/guide/integration-testing): Integration testing involves testing how different components of a software system work together. The Robot Framework can be used to automate this type of testing, allowing testers to easily test the interactions between different components.
--
-- **Continuous Integration/Continuous Delivery (CI/CD):** It can be integrated with [CI/CD pipelines](https://www.browserstack.com/guide/building-ci-cd-pipeline) to automate testing as part of the software development process. This allows teams to catch issues early in the development cycle and ensure that new changes do not introduce new bugs or issues.
--
+- **Acceptance Testing**: Robot Automation Framework is often used for acceptance testing, which involves testing whether a software system meets the specified requirements. This type of testing can be done at various stages of the software development lifecycle, from early prototypes to final releases.
+
+- **Regression Testing**: Regression testing is used to ensure that software changes or updates do not introduce new bugs or issues. Robot Framework is a popular choice for regression testing because of its modular architecture and ability to easily reuse test cases.
+
+- **Functional Testing** Python Robot Framework can be used for functional testing, which involves testing the functionality of a software system. This can include testing individual functions or components, as well as testing the system as a whole.
+
+- **Integration Testing**: Integration testing involves testing how different components of a software system work together. The Robot Framework can be used to automate this type of testing, allowing testers to easily test the interactions between different components.
+
+- **Continuous Integration/Continuous Delivery (CI/CD):** It can be integrated with CI/CD pipelines to automate testing as part of the software development process. This allows teams to catch issues early in the development cycle and ensure that new changes do not introduce new bugs or issues.
+  
 - **API Testing:** Robot Framework has built-in libraries for testing APIs, making it a popular choice for testing RESTful and SOAP web services.
 
 
@@ -70,7 +70,7 @@ Robot Framework is a popular test automation framework that uses a keyword-drive
     *** Variables ***
     ${MY_VARIABLE} Hello World
 
-- **Test Data**: Test data is the input that is used in a test case. Test data can be stored in a separate file, such as a CSV or Excel file, and then accessed using the “[**Data-Driven Testing**](https://www.browserstack.com/guide/data-driven-framework-in-selenium)” approach in Robot Framework. In the below example, the “Get File” keyword is used to read the test data from the “login\_data.csv” file and store it in a variable called “${data}”. The “FOR” loop is then used to iterate over each row of the test data and set the “${username}” and “${password}” variables to the values from the CSV file. Finally, the “Login” keyword is used to perform the login functionality with the specified username and password.
+- **Test Data**: Test data is the input that is used in a test case. Test data can be stored in a separate file, such as a CSV or Excel file, and then accessed using the “**Data-Driven Testing**” approach in Robot Framework. In the below example, the “Get File” keyword is used to read the test data from the “login\_data.csv” file and store it in a variable called “${data}”. The “FOR” loop is then used to iterate over each row of the test data and set the “${username}” and “${password}” variables to the values from the CSV file. Finally, the “Login” keyword is used to perform the login functionality with the specified username and password.
 
 <!---->
 
@@ -136,9 +136,12 @@ Robot Framework is a popular test automation framework that uses a keyword-drive
 
 &#x20; **Command:-**
 
-1. ## **Install Python****** sudo apt install python3
+ ## 1.**Install Python**
+```
+   sudo apt install python3
+```
 
-**Output:-******
+**Output:-**
 
 Reading package lists... Done
 
@@ -162,13 +165,18 @@ Use 'sudo apt autoremove' to remove them.
 
 0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
 
- **Verify Installation**     python3 --version
-
+ **Verify Installation**     
+ ```
+python3 --version
+```
 **Output:-**
 
 Python 3.8.10
 
-2. ## **Install Pip**             - sudo apt install python3-pip
+ ## 2.**Install Pip**
+```
+    sudo apt install python3-pip
+```
 
 **Output:-**
 
@@ -682,13 +690,18 @@ Processing triggers for man-db (2.9.1-1) ...
 
 Processing triggers for libc-bin (2.31-0ubuntu9.12) …
 
-**Verify Installation**    - pip3 --version
-
+**Verify Installation**    
+```
+pip3 --version
+```
 **Output:-**
 
 pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
 
-3. ## **Install Selenium**   -      pip3 install selenium 
+ ## 3.**Install Selenium**
+ ```
+   pip3 install selenium
+```
 
 **Output:-**
 
@@ -762,8 +775,10 @@ Installing collected packages: exceptiongroup, h11, wsproto, sniffio, attrs, sor
 
 Successfully installed attrs-23.1.0 certifi-2023.11.17 exceptiongroup-1.2.0 h11-0.14.0 outcome-1.3.0.post0 pysocks-1.7.1 selenium-4.15.2 sniffio-1.3.0 sortedcontainers-2.4.0 trio-0.23.1 trio-websocket-0.11.1 urllib3-2.1.0 wsproto-1.2.0
 
-**Verify Installation**    - pip3 show selenium
-
+**Verify Installation**    -
+```
+pip3 show selenium
+```
 **Output:-**
 
 Name: selenium
@@ -786,8 +801,10 @@ Requires: trio-websocket, urllib3, certifi, trio
 
 Required-by:
 
-4. ## **Install Pycharm  -****** sudo snap install pycharm-community --classic
-
+## 4.**Install Pycharm**
+   ```
+    sudo snap install pycharm-community --classic
+```
 **Output:-**
 
 pycharm-community 2023.2.5 from jetbrains\*\* installed
@@ -795,7 +812,10 @@ pycharm-community 2023.2.5 from jetbrains\*\* installed
 
 ##   
 
-5. ## **Install Robot Framework**   -   pip3 install robotframework
+ ## 5. **Install Robot Framework**
+```
+   pip3 install robotframework
+   ```
 
 **Output:-**
 
@@ -813,8 +833,10 @@ Installing collected packages: robotframework
 
 Successfully installed robotframework-6.1.1
 
-6. ## **Install Robot Framework Selenium**   - pip3 install robotframework-seleniumlibrary
-
+6. ## **Install Robot Framework Selenium**
+```
+ pip3 install robotframework-seleniumlibrary
+```
 **Output:-**
 
 Collecting robotframework-seleniumlibrary
@@ -861,8 +883,10 @@ Installing collected packages: robotframework-pythonlibcore, robotframework-sele
 
 Successfully installed robotframework-pythonlibcore-4.3.0 robotframework-seleniumlibrary-6.2.0
 
-7. ## **Install Robot Framework-Datadriver -******  pip3 install robotframework-datadriver
-
+7. ## **Install Robot Framework-Datadriver -**
+```
+  pip3 install robotframework-datadriver
+```
 **Output:-**
 
 Collecting robotframework-datadriver
