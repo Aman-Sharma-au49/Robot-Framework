@@ -833,7 +833,7 @@ Installing collected packages: robotframework
 
 Successfully installed robotframework-6.1.1
 
-6. ## **Install Robot Framework Selenium**
+## 6.**Install Robot Framework Selenium**
 ```
  pip3 install robotframework-seleniumlibrary
 ```
@@ -883,7 +883,7 @@ Installing collected packages: robotframework-pythonlibcore, robotframework-sele
 
 Successfully installed robotframework-pythonlibcore-4.3.0 robotframework-seleniumlibrary-6.2.0
 
-7. ## **Install Robot Framework-Datadriver -**
+## 7. **Install Robot Framework-Datadriver -**
 ```
   pip3 install robotframework-datadriver
 ```
@@ -921,7 +921,7 @@ Installing collected packages: Pygments, docutils, robotframework-datadriver
 
 Successfully installed Pygments-2.17.2 docutils-0.20.1 robotframework-datadriver-1.9.0
 
-8. ## **Install Required Packages in Pycharm:-**
+ ## 8.**Install Required Packages in Pycharm:-**
 
 <!---->
 
