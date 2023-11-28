@@ -143,7 +143,7 @@ Robot Framework is a popular test automation framework that uses a keyword-drive
 
 &#x20; **Command:-**
 
- ## 1.**Install Python**
+ ## Install Python
 ```
    sudo apt install python3
 ```
