@@ -6,7 +6,7 @@
 
 [Introduction](#Introduction)
 
-[Verify Installation](#VerifyInstallation)
+[Verify Installation](#Verify Installation)
 
 
 
