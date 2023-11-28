@@ -12,7 +12,7 @@
 
 - [Basic Concepts of Robot Framework](#Basic-Concepts-of-Robot-Framework)
 
-- [Set Up:-](#Set-Up)
+- [Set Up](#Set-Up)
 
 - [Writing your first Test case in Robot framework](#Writing-your-first-Test-case-in-Robot-framework)
 
@@ -150,7 +150,7 @@ Robot Framework is a popular test automation framework that uses a keyword-drive
 - **Reports and Logs**: Robot Framework provides detailed reports and logs that can be used to analyze the test results. The reports include information such as the test case status, execution time, and error messages.
 
 
-## Set Up:-
+## Set Up
 
 &#x20; **Command:-**
 
