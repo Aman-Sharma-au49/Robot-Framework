@@ -14,7 +14,9 @@
 
 - [Set Up:-](#Set-Up)
 
-- 
+- [Writing your first Test case in Robot framework](#Writing-your-first-Test-case-in-Robot-framework)
+
+- [Writing your second Test case in Robot framework](#Writing-your-Second-Test-case-in-Robot-framework)
 
 
 
