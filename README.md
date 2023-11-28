@@ -6,7 +6,7 @@
 
 [Introduction](#Introduction)
 
-[Install Python](#Install Python)
+[Install Python](#Install )
 
 
 
