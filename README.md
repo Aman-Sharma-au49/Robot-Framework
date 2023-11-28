@@ -6,13 +6,13 @@
 
 - [Introduction](#Introduction)
 
-- [What is Robot Framework?](#What-is-Robot-Framework?)
+- [What is Robot Framework?](#What-is-Robot-Framework)
 
 - [Different Types of testing supported by Robot Framework](#Different-Types-of-testing-supported-by-Robot-Framework)
 
 - [Basic Concepts of Robot Framework](#Basic-Concepts-of-Robot-Framework)
 
-- [Set Up:-](#Set-Up:-)
+- [Set Up:-](#Set-Up)
 
 - 
 
