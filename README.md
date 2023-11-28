@@ -134,7 +134,7 @@ Robot Framework is a popular test automation framework that uses a keyword-drive
 - **Test Execution**: Test execution is the process of running the test cases. Robot Framework provides multiple ways to execute tests, such as running individual test cases, running test suites, or running all test cases in a directory.
 - **Exception catching:** Exception catching is used to handle errors and exceptions that may occur during the test execution. Robot Framework provides a built-in keyword named “**Run Keyword And Expect Error**” that can be used to catch exceptions. This keyword executes a given keyword and expects it to fail with a specific error message. If the keyword does not fail or fails with a different error message, the test case will fail.\
   Suppose you have a login functionality that raises an exception if the username or password is incorrect. You can use the “**Run Keyword And Expect Error**” keyword to catch the exception and handle it in a custom way. Here’s an example of how to use this keyword to catch an exception in a login test case:
--
+
 
 <!---->
 
