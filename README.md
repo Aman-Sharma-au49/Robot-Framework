@@ -4,8 +4,8 @@
 
 ## Content
 
-[Introduction](#iIntroduction)
-[Verify Installation](#Verify Installation)
+[Introduction](#Introduction)
+[Verify Installation](# Verify Installation)
 
 
 
